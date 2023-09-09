@@ -32,18 +32,18 @@ public class Complexoperations {
             case '-':
                 a=a1-a2;
                 b=b1-b2;
-                System.out.format("Addition of complex No. is:\n(%d+%di)-(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
+                System.out.format("Subtraction of complex No. is:\n(%d+%di)-(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
                 break;
             
             case '*':
                 a=(a1*a2)-(b1*b2);
-                b=(a1*a2)+(b1*a2);
-                System.out.format("Addition of complex No. is:\n(%d+%di)*(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
+                b=(a1*b2)+(b1*a2);
+                System.out.format("Multiplication of complex No. is:\n(%d+%di)*(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
                 break;
             case '/':
                 a=a1/a2;
                 b=b1/b2;
-                System.out.format("Addition of complex No. is:\n(%d+%di)/(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
+                System.out.format("Division of complex No. is:\n(%d+%di)/(%d+%di)=(%d+%di)",a1,b1,a2,b2,a,b);
                 break;
             
             default:
