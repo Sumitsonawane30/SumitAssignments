@@ -11,19 +11,17 @@ int main(){
 		cin>>arr[i];
 		
 	}
-	for(i=0;i<n-1;i++){
-		for(j=i+1;j<n;j++){
-			if(arr[i]>arr[j]){
-				int temp=arr[j];
-				arr[j]=arr[i];
-				arr[i]=temp;
+	int counter=1;
+	while (counter < 1){
+		for(i=0;i<n-1;i++){
+			for(j=i+1;j<n;j++){
 				
+
 			}
 		}
+
+
 	}
-	for(i=0;i<n;i++){
-		cout<<arr[i]<<" ";
-	}
-	return 0;
+	
 
 }
