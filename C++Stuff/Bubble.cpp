@@ -12,7 +12,7 @@ int main(){
 		
 	}
 	int counter=1;
-	while (counter < 1){
+	while (counter < n){
 
 		for(i=0;i<n-counter;i++){
 			if(arr[i]>arr[i+1]){

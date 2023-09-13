@@ -88,8 +88,6 @@ int main(){
             cout<<"Do you want to input Records(Enter 1 if yes)\n";
             cin>>ch;
             i++;
-
-
            
         }
         while(ch==1);
