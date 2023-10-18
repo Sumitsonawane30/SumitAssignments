@@ -54,7 +54,7 @@ node*create (char postfix[10])
             s.push(p);
         }
     }
-    return s.pop();
+    return s.pop()
 }
 void preorder(node*p)
 {
