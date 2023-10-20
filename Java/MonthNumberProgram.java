@@ -5,7 +5,8 @@ public class MonthNumberProgram {
 
         if (i < 1 || i > 12) {
             throw new NumberFormatException("\n Exception Error occured");
-        } else {
+        } 
+        else {
             System.out.println("No. is Correct");
 
         }
