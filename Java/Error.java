@@ -10,7 +10,8 @@ public class Error {
             case 1:
                 try {
                     int data = 100 / 0;
-                } catch (ArithmeticException e) {
+                } 
+                catch (ArithmeticException e) {
                     System.out.println(e);
                 }
                 break;
@@ -18,15 +19,17 @@ public class Error {
                 try {
                     String s = null;
                     System.out.println(s.length());
-                } catch (NullPointerException e) {
+                } 
+                catch (NullPointerException e) {
                     System.out.println(e);
                 }
                 break;
             case 3:
                 try {
                     String s = "abc";
-                    int i = Integer.parselnt(s);
-                } catch (NumberFormatException e) {
+                    int i = Integer.parseInt(s);
+                } 
+                catch (NumberFormatException e) {
                     System.out.println(e);
                 }
                 break;
@@ -34,7 +37,8 @@ public class Error {
                 try {
                     int a[] = new int[3];
                     a[5] = 10;
-                } catch (ArrayIndexoutofBoundsException e) {
+                } 
+                catch (ArrayIndexOutOfBoundsException e) {
                     System.out.println(e);
                 }
                 break;

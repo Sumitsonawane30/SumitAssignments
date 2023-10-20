@@ -11,7 +11,8 @@ public class Prime
 		num = sc.nextInt();
 		for(i=1; i<=num; i++)
 
-		{	rem = num%i;
+		{	
+			rem = num%i;
 		}
 			if(rem==0)
 			{
