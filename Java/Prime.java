@@ -9,18 +9,18 @@ public class Prime
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a No.:");
 		num = sc.nextInt();
-		for(i=1; i<=num; i++)
 
+		for(i=2; i<=num/2; i++)
 		{	
 			rem = num%i;
 		}
 			if(rem==0)
 			{
-				System.out.println(num+"is a prime no.");
+				System.out.println(num+"is not a prime no.");
 			}
 			else
 			{
-				System.out.println(num+"is not a prime no.");
+				System.out.println(num+"is a prime no.");
 			}
 		
 	
