@@ -11,6 +11,11 @@ public class Generic{
 			System.out.println(s+" is not Pallindrome");     
 
     }
+    public static void main(String[] args) {
+       
+
+    }
+
 }
 
 
