@@ -1,5 +1,5 @@
 import java.util.*;
-public class Generic{
+public class Generic_B{
     public static void main(String[] args) {
 
         ArrayList<Integer>Mynumber=new ArrayList<Integer>();
